@@ -65,17 +65,17 @@ header a {
 }
 
 /* ! ABOUT ME TEXT */
-#showcase {
+/* #showcase {
     min-height: 200px;
-    /* background-image: url("Images/sunsetClouds.png"); */
+    background-image: url("Images/sunsetClouds.png");
     background-position: top;
     background-size: cover;
-    /* filter:brightness(20%); */
+    filter:brightness(20%);
     text-align: left;
     border-bottom: 3px solid #249608;
-}
+} */
 
-#showcase h1 {
+/* #showcase h1 {
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 20px;
@@ -85,7 +85,7 @@ header a {
 #showcase p {
     font-size: 18px;
     color: #2d2b3e;
-}
+} */
 
 /* ! IMAGE BAR */
 #imageBar {
@@ -179,16 +179,27 @@ i {
     font-size: 50px;
 }
 
-.fa-html5 {
+#news {
     color: #d45632;
+    background-image: url(Images/NewsImage.jpeg);
+
+
 }
 
-.fa-css3 {
+#programs {
     color: #2d50dc;
 }
 
-.fa-square-js {
+#servicearea {
     color: #f3ef50;
+}
+
+#about {
+    color: #e61fbb;
+}
+
+#contact {
+    color: #89590d;
 }
 
 /* ! FOOTER */
