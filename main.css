@@ -30,9 +30,9 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
-header > img {
-  
-}
+/* header > img {
+    display: flex
+} */
 
 ol, ul {
   list-style: none; }
