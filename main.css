@@ -30,6 +30,23 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
+/* !Fixing Header */
+/* #header {
+  display: flex;
+  justify-content: space-between
+} */
+
+#longheader {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+#pride {
+  display: flex;
+  align-items: center;
+  margin-left: 60%;
+}
+
 ol, ul {
   list-style: none; }
 
