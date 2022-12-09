@@ -40,6 +40,16 @@ body {
   /* justify-content: flex-end; */
 }
 
+/* ! Trying to resize service area map */
+/* #serviceAreaMap {
+  background-size: stretch;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  margin-left: 50%;
+  box-sizing: 50%;
+} */
+
 #pride {
   display: flex;
   align-items: center;
