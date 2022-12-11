@@ -69,6 +69,13 @@ body {
   margin: 5px;
 }
 
+.grant-btn {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: px;
+}
+
 ol, ul {
   list-style: none; }
 
