@@ -32,13 +32,26 @@ body {
 /* !Fixing Header */
 /* #header {
   display: flex;
-  justify-content: space-between
-} */
+  justify-content: space-between;
+  align-items: top;
+}
+
+#pride-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: bottom;
+}
 
 #longheader {
   display: flex;
-  /* justify-content: flex-end; */
+  align-items: top;
 }
+
+#pride {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 60%;
+} */
 
 /* ! Trying to resize service area map */
 /* #serviceAreaMap {
@@ -49,12 +62,6 @@ body {
   margin-left: 50%;
   box-sizing: 50%;
 } */
-
-#pride {
-  display: flex;
-  align-items: center;
-  margin-left: 60%;
-}
 
 ol, ul {
   list-style: none; }
