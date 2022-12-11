@@ -65,10 +65,9 @@ body {
 
 .pride-btn {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin: 5px;
 }
-
 
 ol, ul {
   list-style: none; }
