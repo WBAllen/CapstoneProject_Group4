@@ -32,18 +32,48 @@ body {
 /* !Fixing Header */
 /* #header {
   display: flex;
-  justify-content: space-between
-} */
+  justify-content: space-between;
+  align-items: top;
+}
+
+#pride-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: bottom;
+}
 
 #longheader {
   display: flex;
-  /* justify-content: flex-end; */
+  align-items: top;
 }
 
 #pride {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   margin-left: 60%;
+} */
+
+/* ! Trying to resize service area map */
+/* #serviceAreaMap {
+  background-size: stretch;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  margin-left: 50%;
+  box-sizing: 50%;
+} */
+
+.pride-btn {
+  display: flex;
+  justify-content: left;
+  margin: 5px;
+}
+
+.grant-btn {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: px;
 }
 
 ol, ul {
@@ -107,7 +137,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #7f888f;
+  color: #040116;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -127,7 +157,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
+  /* border-bottom: dotted 1px; */
   color: #35bd13;
   text-decoration: none; }
   a:hover {
@@ -203,7 +233,7 @@ sup {
   top: -0.5em; }
 
 blockquote {
-  border-left: solid 3px rgba(210, 215, 217, 0.75);
+  border-left: solid 3px rgba(41, 72, 84, 0.75);
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em; }
