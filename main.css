@@ -45,13 +45,15 @@ body {
 #longheader {
   display: flex;
   align-items: top;
-}
+} */
 
 #pride {
   display: flex;
-  align-items: flex-end;
-  margin-left: 60%;
-} */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
+  font-size: large;
+  color: #267313;
+}
 
 /* ! Trying to resize service area map */
 /* #serviceAreaMap {
@@ -137,7 +139,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #7f888f;
+  color: #040116;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
