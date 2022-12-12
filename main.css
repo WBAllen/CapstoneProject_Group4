@@ -45,13 +45,15 @@ body {
 #longheader {
   display: flex;
   align-items: top;
-}
+} */
 
 #pride {
   display: flex;
-  align-items: flex-end;
-  margin-left: 60%;
-} */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
+  font-size: large;
+  color: #267313;
+}
 
 /* ! Trying to resize service area map */
 /* #serviceAreaMap {
