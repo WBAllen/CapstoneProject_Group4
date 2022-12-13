@@ -55,6 +55,10 @@ body {
   color: #267313;
 }
 
+.service-counties{
+  color: #267313
+}
+
 /* ! Trying to resize service area map */
 /* #serviceAreaMap {
   background-size: stretch;
